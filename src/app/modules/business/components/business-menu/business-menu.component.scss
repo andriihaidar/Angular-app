@@ -1,0 +1,41 @@
+@import 'app';
+
+.menu {
+  padding: 24px;
+
+  &__close {
+    @include display-flex (flex-end);
+    @include only-width-320 {
+      ion-button {
+        height: 20px;
+      }
+    }
+  }
+
+  &__title {
+    @include font-style (24px, bold, $dark-gray, $lineHeight: 28px);
+  }
+
+  &__options {
+    &-item {
+      @include display-flex (flex-start, $align: center);
+      @include border-style ($border-bottom: 1px solid $light-gray);
+      height: 56px;
+      margin-top: 12px;
+
+      @include only-width-320 {
+        height: 52px;
+        margin-top: 8px;
+      }
+
+      &-icon {
+        @include square (25px);
+        margin-right: 16px;
+      }
+    }
+  }
+}
+
+.coming-soon-label {
+  margin-bottom: 10px;
+}

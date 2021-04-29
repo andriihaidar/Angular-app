@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="24px" viewBox="0 0 25 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>16E811ED-DB46-4723-AD5E-C594D845709B</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="327" height="56"></rect>
+        <filter x="-0.2%" y="-0.9%" width="100.3%" height="101.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.8924   0 0 0 0 0.90758   0 0 0 0 0.92  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="04---Account" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="13-02A_Account---Detail---Account-and-Login" transform="translate(-23.000000, -536.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="375" height="812"></rect>
+            <g id="Group-2" transform="translate(24.000000, 248.000000)">
+                <g id="Text-Input-/-Default" transform="translate(0.000000, 272.000000)">
+                    <g id="Container">
+                        <use fill-opacity="0" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Icons-/-Ic_24_Search" transform="translate(0.000000, 16.000000)">
+                        <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+                        <g id="diamond" transform="translate(1.000000, 2.000000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <line x1="0" y1="6.28571429" x2="22" y2="6.28571429" id="Path" stroke="#4CBD97"></line>
+                            <polyline id="Path" stroke="#4CBD97" points="11 20.4285714 14.9285714 6.28571429 11 0"></polyline>
+                            <polyline id="Path" stroke="#4CBD97" points="11 0 7.07142857 6.28571429 11 20.4285714"></polyline>
+                            <line x1="3.92857143" y1="0" x2="7.07142857" y2="6.28571429" id="Path" stroke="#4CBD97"></line>
+                            <line x1="18.0714286" y1="0" x2="14.9285714" y2="6.28571429" id="Path" stroke="#4CBD97"></line>
+                            <polygon id="Path" stroke="#323F4B" points="22 6.28571429 11 20.4285714 0 6.28571429 3.92857143 0 18.0714286 0"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

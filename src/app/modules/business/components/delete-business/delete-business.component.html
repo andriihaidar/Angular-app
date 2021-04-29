@@ -1,0 +1,63 @@
+<div class="delete top-margin">
+  <div class="delete__header">
+    <header
+      leftIcon="assets/icon/close.svg"
+      (leftIconClick)="dismiss()"
+      title="business.delete_business"
+    ></header>
+  </div>
+  <ion-content class="delete__content">
+    <div *ngIf="!deleted; else success">
+      <ion-img src="assets/icon/big-delete.svg"></ion-img>
+      <p class="delete__content-title">{{ 'business.are_you_sure_to_delete' | translate }}</p>
+      <p class="paragraph">{{ 'business.all_data_will_be_deleted' | translate }}</p>
+      <div class="delete__content-password">
+        <input-password
+          placeholder="login.password"
+          iconPath="assets/icon/lock-clear.svg"
+          [componentType]="passwordsTypes.password"
+          [formControl]="password"
+        >
+        </input-password>
+      </div>
+      <ion-hint
+        title="business.need_your_password_to_proceed"
+      ></ion-hint>
+    </div>
+    <ng-template #success>
+      <div class="delete__content-round">
+        <round-icon iconPath="assets/icon/check-green.svg"></round-icon>
+      </div>
+      <p class="delete__content-title">{{ 'business.your_business_has_been_deleted' | translate }}</p>
+      <p class="paragraph">{{ 'business.dont_worry_you_can_create_new' | translate }}</p>
+    </ng-template>
+  </ion-content>
+  <div *ngIf="!deleted; else successButtons" class="delete__footer">
+    <ion-button
+      fill="clear"
+      class="btn btn-gray-border"
+      (click)="dismiss()"
+    >
+      {{ 'business.cancel' | translate | uppercase }}
+    </ion-button>
+    <ion-button
+      fill="clear"
+      class="btn btn-outline btn-delete"
+      (click)="deleteBusiness()"
+      [disabled]="password?.invalid"
+    >
+      {{ 'business.delete_my_business' | translate | uppercase }}
+    </ion-button>
+  </div>
+  <ng-template #successButtons>
+    <div class="delete__footer">
+      <ion-button
+        fill="clear"
+        class="btn btn-outline"
+        (click)="dismiss()"
+      >
+        {{ 'business.close' | translate | uppercase }}
+      </ion-button>
+    </div>
+  </ng-template>
+</div>

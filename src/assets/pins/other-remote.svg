@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons / Ic_48_Pin - Other</title>
+    <defs>
+        <path d="M21,0 C32.5979797,0 42,9.40202025 42,21 C42,31.4920156 34.3056074,40.1869095 24.251739,41.7497647 L21,45 L17.7492633,41.7499205 C7.69490405,40.1874874 0,31.4923643 0,21 C0,9.40202025 9.40202025,0 21,0 Z" id="path-1"></path>
+        <filter x="-16.7%" y="-11.1%" width="133.3%" height="131.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#2EBCD7" offset="0%"></stop>
+            <stop stop-color="#2CB6D3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icons-/-Ic_48_Pin---Other" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="48" height="48"></rect>
+        <g id="Group" transform="translate(3.000000, 2.000000)">
+            <g id="Combined-Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <circle id="Oval" fill="url(#linearGradient-3)" fill-rule="nonzero" cx="21" cy="21" r="19"></circle>
+            <g transform="translate(9.000000, 9.000000)" id="Icons-/-Ic_24_Beauty---Glyph">
+                <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+                <g id="apps" transform="translate(2.000000, 2.000000)" fill="#FFFFFF">
+                    <path d="M2.5,15 C3.88071187,15 5,16.1192881 5,17.5 C5,18.8807119 3.88071187,20 2.5,20 C1.11928813,20 0,18.8807119 0,17.5 C0,16.1192881 1.11928813,15 2.5,15 Z M17.5,15 C18.8807119,15 20,16.1192881 20,17.5 C20,18.8807119 18.8807119,20 17.5,20 C16.1192881,20 15,18.8807119 15,17.5 C15,16.1192881 16.1192881,15 17.5,15 Z M10,7.5 C11.3807119,7.5 12.5,8.61928813 12.5,10 C12.5,11.3807119 11.3807119,12.5 10,12.5 C8.61928813,12.5 7.5,11.3807119 7.5,10 C7.5,8.61928813 8.61928813,7.5 10,7.5 Z M2.5,0 C3.88071187,0 5,1.11928813 5,2.5 C5,3.88071187 3.88071187,5 2.5,5 C1.11928813,5 0,3.88071187 0,2.5 C0,1.11928813 1.11928813,0 2.5,0 Z M17.5,0 C18.8807119,0 20,1.11928813 20,2.5 C20,3.88071187 18.8807119,5 17.5,5 C16.1192881,5 15,3.88071187 15,2.5 C15,1.11928813 16.1192881,0 17.5,0 Z" id="Combined-Shape"></path>
+                    <path d="M10,15 C11.3807119,15 12.5,16.1192881 12.5,17.5 C12.5,18.8807119 11.3807119,20 10,20 C8.61928813,20 7.5,18.8807119 7.5,17.5 C7.5,16.1192881 8.61928813,15 10,15 Z M2.5,7.5 C3.88071187,7.5 5,8.61928813 5,10 C5,11.3807119 3.88071187,12.5 2.5,12.5 C1.11928813,12.5 0,11.3807119 0,10 C0,8.61928813 1.11928813,7.5 2.5,7.5 Z M17.5,7.5 C18.8807119,7.5 20,8.61928813 20,10 C20,11.3807119 18.8807119,12.5 17.5,12.5 C16.1192881,12.5 15,11.3807119 15,10 C15,8.61928813 16.1192881,7.5 17.5,7.5 Z M10,0 C11.3807119,0 12.5,1.11928813 12.5,2.5 C12.5,3.88071187 11.3807119,5 10,5 C8.61928813,5 7.5,3.88071187 7.5,2.5 C7.5,1.11928813 8.61928813,0 10,0 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons / Ic_56_Floating - CS</title>
+    <defs>
+        <circle id="path-1" cx="28" cy="28" r="28"></circle>
+        <filter x="-25.0%" y="-17.9%" width="150.0%" height="150.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Icons-/-Ic_56_Floating---CS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon">
+            <g id="Oval">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <circle id="Oval" fill="#323F4B" cx="28" cy="28" r="28"></circle>
+        </g>
+        <g id="Icons-/-Ic_32_Support" transform="translate(12.000000, 12.000000)">
+            <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="32" height="32"></rect>
+            <g id="headset" transform="translate(2.666667, 1.333333)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <path d="M26.6666667,14.6666667 L26.6666667,13.3333333 C26.6666667,5.96933333 20.6973333,0 13.3333333,0 L13.3333333,0 C5.96933333,0 0,5.96933333 0,13.3333333 L0,14.6666667" id="Path"></path>
+                <path d="M16,29.3333333 L22.6666667,29.3333333 C24.876,29.3333333 26.6666667,27.5426667 26.6666667,25.3333333 L26.6666667,21.3333333 M6.66666667,14.6666667 L0,14.6666667 L0,21.3333333 C0,22.8066667 1.19333333,24 2.66666667,24 L6.66666667,24 L6.66666667,14.6666667 Z M26.6666667,14.6666667 L20,14.6666667 L20,24 L24,24 C25.4733333,24 26.6666667,22.8066667 26.6666667,21.3333333 L26.6666667,14.6666667 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

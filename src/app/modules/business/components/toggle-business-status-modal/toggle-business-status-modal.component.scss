@@ -1,0 +1,21 @@
+@import 'app';
+
+.toggle-status {
+  padding: 20px;
+
+  &__title {
+    @include font-style (24px, bold, $dark-gray, $spacing: 0, $lineHeight: 28px);
+    margin-bottom: 8px;
+  }
+
+  &__subtitle {
+    @include font-style (16px, 400, $gray, $spacing: 0.4px, $lineHeight: 28px);
+    margin-bottom: 8px;
+  }
+
+  &__footer {
+    @include display-flex ($direction: column);
+    padding-top: 20px;
+  }
+
+}

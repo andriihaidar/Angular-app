@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="12px" viewBox="0 0 14 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons / Ic_16_Diamond - Glyph</title>
+    <g id="04---Account" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="13-01B_Account---Detail---Premium-User" transform="translate(-118.000000, -226.000000)">
+            <g id="Labels-/-Tag" transform="translate(101.000000, 214.000000)">
+                <g id="Group" transform="translate(16.000000, 10.000000)">
+                    <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="16" height="16"></rect>
+                    <path d="M13.1333333,2 L15,5.69230769 L8,14 L1,5.69230769 L2.86666667,2 L13.1333333,2 Z M11.5,5 L4.5,5 L4.41012437,5.00805567 C4.17687516,5.05039163 4,5.25454011 4,5.5 C4,5.77614237 4.22385763,6 4.5,6 L4.5,6 L11.5,6 L11.5898756,5.99194433 C11.8231248,5.94960837 12,5.74545989 12,5.5 C12,5.22385763 11.7761424,5 11.5,5 L11.5,5 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>B280E23A-60D1-495A-B52F-FD11B123DB4E</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#6BE89F" offset="0%"></stop>
+            <stop stop-color="#4CBD97" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="03---Consumer-Mode" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="08-02A_Consumer-Mode---Business-Directory---List-View" transform="translate(-112.000000, -456.000000)">
+            <g id="Services" transform="translate(24.000000, 292.000000)">
+                <g id="Icons-/-Thumbnail_48" transform="translate(88.000000, 164.000000)">
+                    <rect id="Container---Active" fill="url(#linearGradient-1)" fill-rule="nonzero" x="0" y="0" width="64" height="64" rx="12"></rect>
+                    <g id="Icons-/-Ic_32_Handyman---Glyph" transform="translate(16.000000, 16.000000)">
+                        <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="32" height="32"></rect>
+                        <g id="settings" fill="#FFFFFF">
+                            <path d="M23,17.5 L28.757,23.757 C29.5528065,24.5525661 29.9999061,25.6317296 29.9999061,26.757 C29.9999061,27.8822704 29.5528065,28.9614339 28.757,29.757 C27.9614339,30.5528065 26.8822704,30.9999061 25.757,30.9999061 C24.6317296,30.9999061 23.5525661,30.5528065 22.757,29.757 L22.757,29.757 L17,24 L23,17.5 Z M4.99349805,-4.52970994e-13 L9.9869961,5.04042844 L9.9869961,7.11036438 L13.5,10.5 L10,13.5 L7.04416125,10.0808569 L4.99349805,10.0808569 L0,5.04042844 L4.99349805,-4.52970994e-13 Z" id="Combined-Shape"></path>
+                            <path d="M30.634,5.366 L27,9 L23,5 L26.634,1.366 C24.3352333,0.561369807 21.7794783,1.11149635 20.0153496,2.79066518 C18.251221,4.46983401 17.5757193,6.99534795 18.266,9.331 L1.652,24.484 C0.83616668,25.2282822 0.777970203,26.4929365 1.522,27.309 C1.543,27.332 1.564,27.354 1.586,27.376 L4.624,30.414 C5.4049997,31.1947639 6.6710003,31.1947639 7.452,30.414 C7.474,30.392 7.495,30.37 7.516,30.347 L22.669,13.734 C25.0050758,14.427469 27.5327271,13.7530278 29.2128004,11.987949 C30.8928736,10.2228702 31.4418355,7.66503264 30.634,5.366 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

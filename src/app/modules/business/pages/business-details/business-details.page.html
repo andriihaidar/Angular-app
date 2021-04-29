@@ -1,0 +1,163 @@
+<ion-content>
+  <div class="loader" *ngIf="!business?._id; else businessContent">
+    <ion-progress-bar
+      type="indeterminate"
+      color="success"
+    ></ion-progress-bar>
+  </div>
+  <ng-template #businessContent>
+    <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+      <ion-refresher-content>
+      </ion-refresher-content>
+    </ion-refresher>
+    <div
+      class="full-wrapper"
+      [ngClass]="{'full-wrapper-fullscreen': isImageFullscreen}"
+    >
+      <div class="header">
+        <app-header-images
+          [image]="business?.photoUrl || defaultBusinessDetailsImage"
+          (toggle)="toggleFullScreen($event)"
+        ></app-header-images>
+        <div class="header__icons" *ngIf="!isImageFullscreen">
+          <img
+            src="assets/icon/left-arrow-w.svg"
+            (click)="back()"
+          >
+          <img
+            *ngIf="isOwner"
+            src="assets/icon/settings.svg"
+            (click)="presentMenuModal()"
+          >
+        </div>
+        <div
+          *ngIf="isOwner && !isDraft"
+          class="header__status"
+          [ngClass]="{'header__status-red': isClosed}"
+        >
+          <ion-img
+            class="header__status-icon"
+            [src]="isClosed ? 'assets/icon/business-close-red.svg' : 'assets/icon/business-green.svg'"
+          ></ion-img>
+          {{ statusText | translate }}
+        </div>
+        <div class="header__floating" [ngClass]="{'header__floating-single': isOwner}">
+          <div *ngIf="!isOwner" class="header__floating-img">
+            <ion-img class="cover-img" [src]="business?.user?.photoUrl || defaultUserImage"></ion-img>
+          </div>
+          <div class="header__floating-buttons">
+            <ion-button
+              *ngIf="isPublished"
+              fill="clear"
+              class="btn-clear"
+              (click)="shareBusiness()"
+            >
+              <ion-icon src="assets/icon/share.svg"></ion-icon>
+            </ion-button>
+          </div>
+        </div>
+      </div>
+      <div class="top-info" [ngClass]="{'top-info-single': isOwner}">
+        <div class="top-info__title">{{ business?.businessName }}</div>
+        <div class="top-info__sub-info">
+          <div class="top-info__sub-info-left">
+            <div class="top-info__sub-info-ratings">
+              <ion-icon src="assets/icon/star-gray.svg" class="left-icon"></ion-icon>
+              0.0
+            </div>
+            <ul class="top-info__sub-info-services" *ngIf="business?.serviceToProvide?.length">
+              <li class="top-info__sub-info-services-item">{{ business?.serviceToProvide[0] | titlecase }} {{ 'create_new_business.service' | translate }}</li>
+            </ul>
+          </div>
+          <app-remote-label *ngIf="business?.remoteOnly"></app-remote-label>
+        </div>
+        <div *ngIf="isOwner" class="top-info__bottom">
+          <div class="top-info__profile">
+            <div class="top-info__profile-photo">
+              <ion-img
+                class="cover-img"
+                [src]="business?.user?.photoUrl || defaultUserImage"
+              ></ion-img>
+            </div>
+            <div class="top-info__profile-name">{{ business?.user?.firstName}} {{ business?.user?.lastName }}</div>
+          </div>
+          <div *ngIf="!isPublished" class="top-info__badge">
+            {{ translateStatus | translate }}
+          </div>
+        </div>
+      </div>
+      <div class="tabs-list">
+        <app-tabs
+          [tabs]="businessDetailsTabs"
+          (tabChanged)="changeTab($event)"
+        ></app-tabs>
+      </div>
+      <div class="tabs-content" [ngSwitch]="currentTab">
+        <app-business-preview-services
+          *ngSwitchCase="businessDetailsTabs.Services"
+          [services]="servicesList"
+          [description]="business?.businessDescription"
+          [serviceType]="serviceType"
+          [allowRequests]="true"
+          (toggleServiceItem)="toggleService($event)"
+          [requestedServices]="requestedService"
+          [isOwner]="(user$ | async)._id === business?.user?._id"
+          [serviceRateType]="business?.serviceRateType"
+          [serviceDuration]="business?.serviceDuration"
+          (toggleAvailabilityService)="toggleServiceItem($event)"
+        ></app-business-preview-services>
+        <app-business-preview-about
+          [teamMembers]="teamMembers"
+          [location]="location"
+          [hours]="scheduleList"
+          [rules]="business?.rules"
+          *ngSwitchCase="businessDetailsTabs.About"
+        ></app-business-preview-about>
+        <app-business-preview-faq
+          [faq]="faq"
+          *ngSwitchCase="businessDetailsTabs.FAQ"
+        ></app-business-preview-faq>
+        <app-business-details-reviews
+          *ngSwitchCase="businessDetailsTabs.Reviews"
+        ></app-business-details-reviews>
+      </div>
+    </div>
+    <div
+      *ngIf="!isImageFullscreen && !isOwner"
+      slot="fixed"
+      class="full-wrapper__fixed-buttons"
+    >
+      <p class="full-wrapper__fixed-buttons-text" *ngIf="!requestedService.length; else total">
+        {{ 'create_new_business.select_service_first' | translate }}
+      <p>
+      <ng-template #total>
+        <p class="full-wrapper__fixed-buttons-text">
+          {{ requestedService?.length }} services selected
+          <br>
+          {{ 'business.total' | translate }}: {{ totalSum }} $
+        <p>
+      </ng-template>
+      <ion-button
+        fill="clear"
+        class="btn btn-green"
+        (click)="showDatepickerModal()"
+        [disabled]="!requestedService.length"
+      >
+        {{ 'create_new_business.pick_date' | translate | uppercase }}
+      </ion-button>
+    </div>
+    <div
+      *ngIf="isOwner && isDraft"
+      slot="fixed"
+      class="full-wrapper__fixed-buttons full-wrapper__publish"
+    >
+      <ion-button
+        fill="clear"
+        class="btn btn-green"
+        (click)="publishBusiness()"
+      >
+        {{ 'business.publish_business' | translate | uppercase }}
+      </ion-button>
+    </div>
+  </ng-template>
+</ion-content>

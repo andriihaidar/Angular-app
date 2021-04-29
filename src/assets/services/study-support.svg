@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>492F947E-4EC8-496B-9E84-350A4F13891C</title>
+    <g id="02---Business-Flow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="08-01_Provider-Mode---Inventory---Create---Service---Category" transform="translate(-23.000000, -615.000000)">
+            <g id="Icon" transform="translate(24.000000, 616.000000)">
+                <rect id="Container" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="48" height="48" rx="15"></rect>
+                <g id="Icons-/-Ic_32_Study" transform="translate(8.000000, 8.000000)">
+                    <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="32" height="32"></rect>
+                    <g id="reading" transform="translate(2.666667, 2.000000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <polygon id="Path" stroke="#4CBD97" points="19.3333333 26.7273333 13.3333333 28 7.33333333 26.6666667 7.33333333 16.6666667 13.3333333 18 19.3333333 16.6666667"></polygon>
+                        <path d="M13.3333333,9.33333333 L13.3333333,9.33333333 C10.7560045,9.33333333 8.66666667,7.2439955 8.66666667,4.66666667 L8.66666667,4.66666667 C8.66666667,2.08933783 10.7560045,0 13.3333333,0 L13.3333333,0 C15.9106622,0 18,2.08933783 18,4.66666667 L18,4.66666667 C18,7.2439955 15.9106622,9.33333333 13.3333333,9.33333333 Z" id="Path" stroke="#323F4B"></path>
+                        <path d="M10,21.3333333 L1.29733333,23.074 C1.05044643,23.1231919 0.796903989,23.0291195 0.64185343,22.8307957 C0.486802871,22.6324719 0.45668883,22.363722 0.564,22.136 L4.97333333,12.7653333 C5.1932631,12.2982545 5.66306626,12.0001152 6.17933333,12 L20.4873333,12 C21.0036004,12.0001152 21.4734036,12.2982545 21.6933333,12.7653333 L26.112,22.154 C26.2188122,22.38062 26.1895546,22.6479913 26.0362604,22.8461487 C25.8829662,23.044306 25.6315184,23.1397914 25.3853333,23.0933333 L16,21.3333333" id="Path" stroke="#323F4B"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons / Ic_32_Star</title>
+    <g id="Icons-/-Ic_32_Star" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="32" height="32"></rect>
+        <polygon id="Star" stroke="#9AA5B1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="16 23.9 6.59543596 29.1352549 9.00022404 19.1322173 0.783095739 12.3647451 11.6739005 11.4177827 16 2 20.3260995 11.4177827 31.2169043 12.3647451 22.999776 19.1322173 25.404564 29.1352549"></polygon>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+{
+  "appId": "com.Name of app.us",
+  "appName": "Name of app",
+  "bundledWebRuntime": false,
+  "webDir": "www",
+  "plugins": {
+    "Keyboard": {
+      "resize": "none",
+      "style": "dark"
+    },
+    "PushNotifications": {
+      "presentationOptions": ["badge", "sound", "alert"]
+    }
+  }
+}

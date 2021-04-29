@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>75245AD1-1628-450F-97B7-FAD97FB965DD</title>
+    <g id="02---Business-Flow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="08-01_Provider-Mode---Inventory---Create---Service---Category" transform="translate(-24.000000, -532.000000)">
+            <g id="Icon" transform="translate(24.000000, 532.000000)">
+                <rect id="Container" fill="none" x="0" y="0" width="48" height="48" rx="16"></rect>
+                <g id="Icons-/-Ic_32_Clean---Glyph" transform="translate(8.000000, 8.000000)">
+                    <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="32" height="32"></rect>
+                    <g id="broom" transform="translate(4.000000, 0.000000)">
+                        <rect id="Rectangle" fill="#4CBD97" fill-rule="nonzero" x="9" y="11" width="6" height="4"></rect>
+                        <path d="M15,9 L15,3 C15,1.3458 13.6542,0 12,0 C10.3458,0 9,1.3458 9,3 L9,9 L15,9 Z" id="Path" fill="#323F4B"></path>
+                        <path d="M23.832,30.445 L15.202,17 L8.798,17 L0.168,30.445 C-0.036,30.752 -0.056,31.146 0.118,31.471 C0.292,31.796 0.631,32 1,32 L7,32 L7,29 C7,28.448 7.447,28 8,28 C8.553,28 9,28.448 9,29 L9,32 L11,32 L11,29 C11,28.448 11.447,28 12,28 C12.553,28 13,28.448 13,29 L13,32 L15,32 L15,29 C15,28.448 15.447,28 16,28 C16.553,28 17,28.448 17,29 L17,32 L23,32 C23.369,32 23.708,31.797 23.882,31.472 C24.056,31.147 24.036,30.752 23.832,30.445 Z" id="Path" fill="#323F4B"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

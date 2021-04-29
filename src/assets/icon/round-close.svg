@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>7F36A915-4EC5-4A33-899B-B98E85B03854</title>
+    <g id="03---Consumer-Mode" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="11-03C_Consumer-Mode---Chat---Reply" transform="translate(-335.000000, -396.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="375" height="812"></rect>
+            <g id="Group-3" transform="translate(0.000000, 383.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="375" height="138"></rect>
+                <g id="Icons-/-Ic_24_Close" transform="translate(335.000000, 13.000000)">
+                    <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+                    <circle id="Oval" stroke="#323F4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" cx="12" cy="12" r="10"></circle>
+                    <path d="M12,7 L12,17 M17,12 L7,12" id="Combined-Shape" stroke="#4CBD97" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(12.000000, 12.000000) rotate(-315.000000) translate(-12.000000, -12.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

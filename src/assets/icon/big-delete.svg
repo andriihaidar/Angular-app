@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="327px" height="168px" viewBox="0 0 327 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>E1B226A9-5EBF-4FC2-ACEC-1AC242A8CD25</title>
+    <g id="02---Business-Flow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="07-19B_Provider-Mode---Inventory---Business-Page---Delete---Confirmation" transform="translate(-24.000000, -128.000000)">
+            <g id="Illustration" transform="translate(24.000000, 128.000000)">
+                <path d="M7.33581072,168 C7.33581072,168 -7.34196602,144.810899 4.82621001,120.247632 C26.5333634,76.4269755 76.0743145,93.9255957 79.3665604,65.4167219 C82.6590509,36.9080262 116.776022,-2.03143613 179.757926,0.0825425483 C283.488985,3.56427452 233.168813,66.4994523 273.624476,89.6278077 C305.427753,107.810305 335.940643,124.28017 324.572721,167.423185 L7.33581072,168 Z" id="Fill-1" fill="#FFE7E7"></path>
+                <g id="Group" transform="translate(119.000000, 66.000000)" stroke="#FC240F" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+                    <path d="M80,20 L80,90 C80,95.5228475 75.5228475,100 70,100 L20,100 C14.4771525,100 10,95.5228475 10,90 L10,20 M35,45 L35,75 M55,45 L55,75" id="Combined-Shape"></path>
+                    <path d="M0,20 L90,20 M25,20 L25,10 C25,4.4771525 29.4771525,0 35,0 L55,0 C60.5228475,0 65,4.4771525 65,10 L65,20" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

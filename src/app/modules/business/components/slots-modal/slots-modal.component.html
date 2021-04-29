@@ -1,0 +1,56 @@
+<div class="slot-modal">
+  <div class="slot-modal__content" (click)="$event.stopPropagation()">
+    <div *ngIf="loading$ | async; else timeslots">
+      <ion-progress-bar
+        type="indeterminate"
+        color="success"
+      ></ion-progress-bar>
+    </div>
+    <ng-template #timeslots>
+      <div *ngIf="slotsByDate?.length; else notFound">
+        <div class="slot-modal__content-header">
+          <p class="slot-modal__content-title">{{ 'business.time_slot' | translate }}</p>
+          <ion-img
+            src="assets/icon/x.svg"
+            (click)="dismiss()"
+          ></ion-img>
+        </div>
+        <p class="slot-modal__content-date">{{ date | date: "EEEE, MMMM d" }}</p>
+        <div class="slot-modal__content-slots">
+          <ion-button
+            *ngFor="let slot of slotsByDate"
+            fill="clear"
+            (click)="setTimeSlot(slot)"
+            >
+            <p
+              class="slot-modal__content-slots-item"
+              [ngClass]="{
+                'slot-modal__content-slots-item-active': slot?.schedule?._id === selectedTimeSlot?.schedule?._id,
+                'slot-modal__content-slots-item-disabled': slot?.disable
+              }"
+            >
+            {{ convertTime(slot?.schedule?.startHour) }} - {{ convertTime(slot?.schedule?.endHour) }}</p>
+          </ion-button>
+        </div>
+      </div>
+      <ng-template #notFound>
+        <p class="not-found">Timeslots not found</p>
+      </ng-template>
+      <div class="slot-modal__content-footer">
+        <p class="slot-modal__content-footer-info">
+          {{ services?.list.length }} {{ 'business.services_selected' | translate }}
+          <br>
+          {{ 'business.total' | translate }}: <span>{{ services?.total }} $</span>
+        <p>
+          <ion-button
+            fill="clear"
+            class="btn btn-green"
+            (click)="next()"
+            [disabled]="!selectedTimeSlot"
+          >
+          {{ 'business.next' | translate | uppercase }}
+          </ion-button>
+      </div>
+    </ng-template>
+  </div>
+</div>

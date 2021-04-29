@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>4E61A233-2A59-45D1-9394-1E0FD9ACD499</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="03-06_Account---Registration---Create-Password" transform="translate(-44.000000, -116.000000)" fill-rule="nonzero">
+            <g id="Icon" transform="translate(24.000000, 96.000000)">
+                <g id="Icons-/-Ic_24_Lock---Glyph" transform="translate(20.000000, 20.000000)">
+                    <rect id="Bounding-Box" x="0" y="0" width="24" height="24"></rect>
+                    <g id="lock" transform="translate(2.000000, 0.000000)">
+                        <path d="M10,0 C13.3137085,0 16,2.6862915 16,6 L16,16 C16,19.3137085 13.3137085,22 10,22 C6.6862915,22 4,19.3137085 4,16 L4,6 C4,2.6862915 6.6862915,0 10,0 Z M10,2 C7.85780461,2 6.10892112,3.68396847 6.00489531,5.80035966 L6,6 L6,16 C6,18.209139 7.790861,20 10,20 C12.1421954,20 13.8910789,18.3160315 13.9951047,16.1996403 L14,16 L14,6 C14,3.790861 12.209139,2 10,2 Z" id="Rectangle" fill="#4CBD97"></path>
+                        <path d="M18,10 C19.1045695,10 20,10.8954305 20,12 L20,22 C20,23.1045695 19.1045695,24 18,24 L2,24 C0.8954305,24 1.3527075e-16,23.1045695 0,22 L0,12 C-1.3527075e-16,10.8954305 0.8954305,10 2,10 L18,10 Z M10,15 C8.8954305,15 8,15.8954305 8,17 C8,18.1045695 8.8954305,19 10,19 C11.1045695,19 12,18.1045695 12,17 C12,15.8954305 11.1045695,15 10,15 Z" id="Combined-Shape" fill="#2E9B74"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

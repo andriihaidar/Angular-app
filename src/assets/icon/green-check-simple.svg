@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons / Ic_16_Check Simple</title>
+    <g id="Icons-/-Ic_16_Check-Simple" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="16" height="16"></rect>
+        <g id="check-single" stroke-linecap="round" stroke-linejoin="round" transform="translate(1.000000, 1.666667)" fill="#4CBD97" fill-rule="nonzero">
+            <path d="M12.4666667,0.6 C12.6875806,0.305448133 13.1054481,0.245752767 13.4,0.466666667 C13.671894,0.67058719 13.7436736,1.04232622 13.5793531,1.32998323 L13.5333333,1.4 L5.53333333,12.0666667 C5.30614158,12.369589 4.87770097,12.4191558 4.588347,12.19118 L4.52859548,12.1380712 L0.528595479,8.13807119 C0.268245951,7.87772166 0.268245951,7.45561167 0.528595479,7.19526215 C0.76891812,6.9549395 1.14707216,6.93645315 1.40859963,7.13980307 L1.47140452,7.19526215 L4.928,10.6513333 L12.4666667,0.6 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>F2B8ACC8-8C0F-41CE-AB26-0E3ABCBC5C1C</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="327" height="276" rx="8"></rect>
+        <filter x="-4.3%" y="-3.6%" width="108.6%" height="110.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="295" height="56"></rect>
+        <filter x="-0.2%" y="-0.9%" width="100.3%" height="101.8%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.8924   0 0 0 0 0.90758   0 0 0 0 0.92  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="04---Account" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="13-03A_Account---Detail---Business-Report---Full" transform="translate(-311.000000, -4164.000000)">
+            <rect id="Background" fill="#FAFAFB" fill-rule="nonzero" x="0" y="0" width="375" height="4232"></rect>
+            <g id="Group-16" transform="translate(24.000000, 3360.000000)">
+                <g id="Cards-/-Business-Report" transform="translate(0.000000, 580.000000)">
+                    <g id="Mask">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Text-Input-/-Default" transform="translate(16.000000, 208.000000)">
+                        <g id="Container">
+                            <use fill-opacity="0" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        </g>
+                        <g id="Icons-/-Ic_24_Search" transform="translate(271.000000, 16.000000)">
+                            <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+                            <circle id="Oval" fill="#CBD2D9" cx="12" cy="12" r="11"></circle>
+                            <polyline id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="7 12.625 10.7037037 16 17 8"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons / Ic_16_Lock</title>
+    <g id="Icons-/-Ic_16_Lock" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="16" height="16"></rect>
+        <circle id="Oval" stroke="#9AA5B1" cx="8" cy="11" r="1.5"></circle>
+        <path d="M8,1.5 C8.96649831,1.5 9.84149831,1.89175084 10.4748737,2.52512627 C11.1082492,3.15850169 11.5,4.03350169 11.5,5 L11.5,5 L11.5,6.5 L4.5,6.5 L4.5,5 C4.5,4.03350169 4.89175084,3.15850169 5.52512627,2.52512627 C6.15850169,1.89175084 7.03350169,1.5 8,1.5 Z" id="Rectangle" stroke="#9AA5B1"></path>
+        <rect id="Rectangle" stroke="#9AA5B1" x="2.5" y="6.5" width="11" height="9" rx="1.33333333"></rect>
+    </g>
+</svg>

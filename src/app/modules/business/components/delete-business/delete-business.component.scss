@@ -1,0 +1,59 @@
+@import 'app';
+
+.delete {
+  height: calc(100vh - 100px);
+
+  &__header {
+    padding: 0 24px;
+  }
+
+  ion-content {
+    height: calc(100% - 170px);
+  }
+
+  &__content {
+
+    &-round {
+      margin: 24px;
+    }
+
+    ion-img {
+      margin: 32px 0;
+      padding: 0 24px;
+      height: 168px;
+      width: 100%;
+    }
+
+    ion-hint {
+      padding: 12px 24px;
+    }
+
+    &-password {
+      padding: 0 24px;
+    }
+
+    .paragraph {
+      padding: 8px 24px 32px;
+    }
+
+    &-title {
+      @include font-style (24px, bold, $dark-gray, $lineHeight: 28px);
+      padding: 0 24px;
+    }
+  }
+
+  &__footer {
+    @include display-flex (center, center, $direction: column);
+    padding: 16px 0;
+    padding-bottom: 34px;
+  }
+}
+
+.btn-delete {
+  @include font-style ($color: $error);
+}
+
+.btn-delete[disabled] {
+  @include font-style ($color: $light-gray3);
+  background-color: transparent
+}

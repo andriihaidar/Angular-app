@@ -1,0 +1,61 @@
+<ion-content>
+  <div class="submit" [ngClass]="{'submit-success': isRequestSent}">
+    <div class="submit__header">
+      <header leftIcon="assets/icon/close.svg" (leftIconClick)="closeModal()"></header>
+    </div>
+    <div *ngIf="isRequestSent" class="submit-success__block">
+      <round-icon iconPath="assets/icon/check-green-bg.svg"></round-icon>
+      <p class="submit-success__block-title">{{ 'business.request_sent' | translate }}</p>
+      <p class="submit-success__block-sub-title">{{ 'business.we_are_sending_request' | translate }}</p>
+    </div>
+    <div class="submit__content">
+      <p
+        class="submit__content-title"
+        *ngIf="!isRequestSent"
+      >{{ 'business.send_business_request' | translate }}</p>
+      <div
+        class="submit__content-business"
+        [ngClass]="{'submit__content-business-success': isRequestSent}"
+      >
+        <request-preview [service]="request"></request-preview>
+      </div>
+      <app-total-gray-list
+        [services]="services?.list"
+        [date]="date"
+        [time]="slot"
+      ></app-total-gray-list>
+      <div class="submit__footer" *ngIf="isRequestSent">
+        <ion-button
+          fill="clear"
+          class="btn btn-outline"
+          (click)="createChatroom()"
+        >{{ 'business.chat' | translate | uppercase }}</ion-button>
+        <ion-button
+          fill="clear"
+          class="btn btn-green"
+          (click)="closeModal()"
+        >{{ 'business.close' | translate | uppercase }}</ion-button>
+      </div>
+    </div>
+    <info-hint
+      *ngIf="isRequestSent"
+      title="You can chat the Provider to give additional information about your request "
+    ></info-hint>
+  </div>
+  <div
+    class="submit__footer"
+    *ngIf="!isRequestSent"
+    slot="fixed"
+  >
+    <ion-button
+      fill="clear"
+      class="btn btn-green"
+      (click)="sendRequest()"
+    >{{ 'business.yes_send_my_request' | translate }}</ion-button>
+    <ion-button
+      fill="clear"
+      class="btn btn-outline"
+      (click)="closeModal()"
+    >{{ 'business.cancel' | translate }}</ion-button>
+  </div>
+</ion-content>

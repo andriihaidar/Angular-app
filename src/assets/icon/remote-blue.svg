@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons / Ic_16_Remote</title>
+    <g id="Icons-/-Ic_16_Remote" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="16" height="16"></rect>
+        <g id="signal-2" transform="translate(1.000000, 1.000000)">
+            <path d="M8.48355556,10.836 C9.95644444,10.2234539 11,8.73452399 11,6.98729151 C11,4.69485609 9.20888889,2.836 7,2.836 C4.79111111,2.836 3,4.69485609 3,6.98729151 C3,8.73452399 4.04355556,10.2234539 5.51644444,10.836" id="Path" stroke="#168AB1" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval" fill="#168AB1" fill-rule="nonzero" cx="7" cy="7" r="2"></circle>
+            <path d="M9.5984,14 C12.1762667,12.929184 14,10.3179806 14,7.26141079 C14,3.25117566 10.8658667,0 7,0 C3.13413333,0 0,3.25117566 0,7.26141079 C0,10.3179806 1.82373333,12.929184 4.4016,14" id="Path" stroke="#168AB1" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

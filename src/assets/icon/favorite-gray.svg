@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>EF8D4F86-357B-49C4-A019-D98CB436C647</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="327" height="184" rx="8"></rect>
+        <filter x="-4.3%" y="-5.4%" width="108.6%" height="115.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="04---Account" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="13-03D_Account---Detail---Business-Report---All-Blank-State" transform="translate(-43.000000, -2512.000000)">
+            <rect id="Background" fill="#FAFAFB" fill-rule="nonzero" x="0" y="0" width="375" height="3956"></rect>
+            <g id="Group-5" transform="translate(24.000000, 1074.000000)">
+                <g id="Group-2" transform="translate(0.000000, 1344.000000)">
+                    <g id="Mask">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Group-13" transform="translate(19.000000, 88.000000)">
+                        <g id="Icons-/-Ic_24_Favorite---Glyph" transform="translate(0.000000, 6.000000)">
+                            <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="32" height="32"></rect>
+                            <path d="M28.324,6.34266667 C25.2,3.21866667 20.1346667,3.21866667 17.0106667,6.34266667 C16.6253333,6.728 16.2906667,7.14266667 16.0013333,7.57866667 C15.712,7.14266667 15.376,6.72666667 14.992,6.34266667 C11.868,3.21866667 6.80266667,3.21866667 3.67866667,6.34266667 C0.554666667,9.46666667 0.554666667,14.532 3.67866667,17.656 L16,29.98 L28.324,17.656 C31.448,14.532 31.448,9.46666667 28.324,6.34266667 Z" id="Path" fill="#CBD2D9"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>icon-pin location</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon-pin-location" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ic_32_Pin---Location">
+            <circle id="Oval" fill="#168AB1" fill-rule="nonzero" cx="24" cy="24" r="24"></circle>
+            <g id="Icons-/-Ic_24_Pin---Glyph" transform="translate(12.000000, 12.000000)">
+                <rect id="Bounding-Box" x="0" y="0" width="24" height="24"></rect>
+                <path d="M12,2 C7.60000001,2 3,5.23809524 3,10.5714286 C3,15.6190476 11,21.4285715 11.3,21.7142858 C11.5,21.9047619 11.7,22.0000001 12,22 C12.3,22.0000001 12.5,21.9047619 12.7,21.7142858 C13,21.4285715 21,15.6190476 21,10.5714286 C21,5.23809524 16.4,2 12,2 Z M12,13 C10.3,13 9,11.7 9,10 C9,8.29999999 10.3,7 12,7 C13.7,7 15,8.29999999 15,10 C15,11.7 13.7,13 12,13 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

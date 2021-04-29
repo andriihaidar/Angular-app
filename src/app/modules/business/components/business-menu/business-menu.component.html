@@ -1,0 +1,35 @@
+<div class="menu">
+  <div class="menu__close">
+    <ion-button (click)="dismiss()" fill="clear">
+      <ion-icon src="assets/icon/x.svg"></ion-icon>
+    </ion-button>
+  </div>
+  <p class="menu__title">{{ 'register.profile_photo.add_photo_title' | translate }}</p>
+  <div class="menu__options">
+    <div
+      *ngIf="!isDraft"
+      fill="clear"
+      class="menu__options-item"
+      (click)="toggleBusinessStatus()"
+    >
+      <ion-icon class="menu__options-item-icon" [src]="statusBusinessIcon"></ion-icon>
+      <p class="paragraph">{{ statusBusinessText | translate }}</p>
+    </div>
+    <div
+      fill="clear"
+      class="menu__options-item"
+      (click)="showEditBusinessModal()"
+    >
+      <ion-icon class="menu__options-item-icon" src="assets/icon/edit.svg"></ion-icon>
+      <p class="paragraph">{{ 'business.edit_business' | translate }}</p>
+    </div>
+    <div
+      fill="clear"
+      class="menu__options-item"
+      (click)="presentDeleteModal()"
+    >
+      <ion-icon class="menu__options-item-icon" src="assets/icon/trash.svg"></ion-icon>
+      <p class="paragraph">{{ 'business.delete_business' | translate }}</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons / Ic_48_Pin - Study</title>
+    <defs>
+        <path d="M21,0 C32.5979797,0 42,9.40202025 42,21 C42,31.4920156 34.3056074,40.1869095 24.251739,41.7497647 L21,45 L17.7492633,41.7499205 C7.69490405,40.1874874 0,31.4923643 0,21 C0,9.40202025 9.40202025,0 21,0 Z" id="path-1"></path>
+        <filter x="-16.7%" y="-11.1%" width="133.3%" height="131.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#2EBCD7" offset="0%"></stop>
+            <stop stop-color="#2CB6D3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icons-/-Ic_48_Pin---Study" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="48" height="48"></rect>
+        <g id="Group" transform="translate(3.000000, 2.000000)">
+            <g id="Combined-Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <circle id="Oval" fill="url(#linearGradient-3)" fill-rule="nonzero" cx="21" cy="21" r="19"></circle>
+            <g transform="translate(9.000000, 9.000000)" id="Icons-/-Ic_24_Study">
+                <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+                <path d="M3.43933983,14.6628827 L4.88822857,15.0511113 C5.68842772,15.265524 6.16330146,16.0880294 5.94888874,16.8882286 C5.73447602,17.6884277 4.91197059,18.1633015 4.11177143,17.9488887 L2.66288269,17.5606602 L3.43933983,14.6628827 Z M20.5606602,14.6628827 L21.3371173,17.5606602 L19.8882286,17.9488887 C19.0880294,18.1633015 18.265524,17.6884277 18.0511113,16.8882286 C17.8366985,16.0880294 18.3115723,15.265524 19.1117714,15.0511113 L19.1117714,15.0511113 L20.5606602,14.6628827 Z M13.75,9 C15.3999599,9 16.7830592,9.97832739 17.1528928,11.2952066 L17.1528928,11.2952066 L12,12.75 L6.84386276,11.3068621 C7.20878824,9.98410423 8.59517588,9 10.25,9 L10.25,9 Z M12,1.5 C14.0042592,1.5 15.6412737,3.07236105 15.744802,5.05084143 L15.75,5.25 C15.75,7.25425917 14.1776389,8.89127374 12.1991586,8.99480199 L12,9 C9.99574083,9 8.35872626,7.42763895 8.25519801,5.44915857 L8.25,5.25 C8.25,3.24574083 9.82236105,1.60872626 11.8008414,1.50519801 L12,1.5 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                <path d="M5.25,12 L11.2494127,14 L11.2494127,22.343 L5.25,21.0882353 L5.2495258,18.6217116 C5.92439892,18.3826248 6.47401988,17.82619 6.67333311,17.0823429 C6.97973212,15.9388462 6.34774385,14.764982 5.24941266,14.3783551 L5.25,12 Z M18.75,12 L18.7506772,14.3783234 C17.6522906,14.764918 17.0202595,15.938815 17.3266669,17.0823429 C17.5259553,17.8260974 18.0754644,18.3824864 18.7502224,18.6216224 L18.75,21.0882353 L12.7494127,22.343 L12.7494127,14 L18.75,12 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

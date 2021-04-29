@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons / Ic_48_Twitter - Circle</title>
+    <defs>
+        <circle id="path-1" cx="24" cy="24" r="22"></circle>
+        <filter x="-31.8%" y="-22.7%" width="163.6%" height="163.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Icons-/-Ic_48_Twitter---Circle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="48" height="48"></rect>
+        <g id="Oval">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+        <g id="Group" transform="translate(12.000000, 12.000000)">
+            <rect id="Bounding-Box" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+            <g id="logo-twitter" transform="translate(1.000000, 3.000000)" fill="#323F4B">
+                <path d="M22,2.13402062 C21.175,2.50515464 20.35,2.78350515 19.4333333,2.87628866 C20.35,2.31958763 21.0833333,1.39175258 21.45,0.371134021 C20.5333333,0.927835052 19.6166667,1.29896907 18.6083333,1.48453608 C17.7833333,0.556701031 16.5916667,0 15.3083333,0 C12.8333333,0 10.8166667,2.04123711 10.8166667,4.54639175 C10.8166667,4.91752577 10.8166667,5.28865979 10.9083333,5.56701031 C7.05833333,5.3814433 3.75833333,3.5257732 1.55833333,0.742268041 C1.1,1.48453608 0.916666667,2.22680412 0.916666667,3.06185567 C0.916666667,4.63917526 1.74166667,6.03092784 2.93333333,6.86597938 C2.2,6.86597938 1.46666667,6.68041237 0.916666667,6.30927835 C0.916666667,6.30927835 0.916666667,6.30927835 0.916666667,6.40206186 C0.916666667,8.62886598 2.475,10.4845361 4.49166667,10.8556701 C4.125,10.9484536 3.75833333,11.0412371 3.3,11.0412371 C3.025,11.0412371 2.75,11.0412371 2.475,10.9484536 C3.025,12.8041237 4.675,14.1030928 6.69166667,14.1030928 C5.13333333,15.3092784 3.20833333,16.0515464 1.1,16.0515464 C0.733333333,16.0515464 0.366666667,16.0515464 0,15.9587629 C2.01666667,17.257732 4.4,18 6.875,18 C15.2166667,18 19.7083333,11.0412371 19.7083333,5.01030928 C19.7083333,4.82474227 19.7083333,4.63917526 19.7083333,4.45360825 C20.625,3.80412371 21.3583333,2.96907216 22,2.13402062 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

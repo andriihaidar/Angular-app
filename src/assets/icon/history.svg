@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons / Ic_24_History</title>
+    <g id="Icons-/-Ic_24_History" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+        <g id="time" transform="translate(2.000000, 2.000000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <polyline id="Path" stroke="#4CBD97" points="10 4 10 10 16 10"></polyline>
+            <path d="M0.000512405244,9.99996909 C0.000512405244,5.25666597 3.3330843,1.16606541 7.97848007,0.207130455 C12.6238758,-0.751804499 17.3037955,1.68481564 19.1821402,6.04036386 C21.0604849,10.3959121 19.6203526,15.4717843 15.7344842,18.1919285 C11.8486158,20.9120728 6.58636423,20.5279322 3.13672995,17.2723014 M2.53333333,19.6 L1.2,15.6 L5.2,15.8352941 L2.53333333,19.6 L2.53333333,19.6 Z" id="Combined-Shape" stroke="#323F4B"></path>
+        </g>
+    </g>
+</svg>

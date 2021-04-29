@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>859C5DBB-BF72-4547-B58D-025A71950BFD</title>
+    <g id="04---Account" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="13-02A_Account---Detail---Account-and-Login" transform="translate(-24.000000, -400.000000)">
+            <g id="Group-2" transform="translate(24.000000, 248.000000)">
+                <g id="Text-Input-/-Filled---Head-Icon" transform="translate(0.000000, 136.000000)">
+                    <g id="Icons-/-Ic_24_Search" transform="translate(0.000000, 16.000000)">
+                        <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+                        <path d="M12,2 C7.6,2 3,5.23809524 3,10.5714286 C3,15.6190476 11,21.4285714 11.3,21.7142857 C11.5,21.9047619 11.7,22 12,22 C12.3,22 12.5,21.9047619 12.7,21.7142857 C13,21.4285714 21,15.6190476 21,10.5714286 C21,5.23809524 16.4,2 12,2 Z" id="Path" stroke="#323F4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M12,13 C10.3,13 9,11.7 9,10 C9,8.3 10.3,7 12,7 C13.7,7 15,8.3 15,10 C15,11.7 13.7,13 12,13 Z" id="Path" stroke="#4CBD97" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

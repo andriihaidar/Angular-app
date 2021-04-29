@@ -1,0 +1,108 @@
+@import 'app';
+
+.submit {
+  @include display-flex ($align: flex-start, $direction: column);
+  min-height: calc(100vh - 254px);
+  padding: 50px 0 20px;
+  overflow-y: auto;
+
+  &__header {
+    padding: 0 24px;
+  }
+
+  &__content {
+    min-height: calc(100% - 150px);
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    width: 100%;
+    overflow-y: scroll;
+
+    &-title {
+      @include font-style (24px, bold, $dark-gray, $lineHeight: 28px, $spacing: 0);
+      margin-top: 24px;
+      margin-bottom: 20px;
+      padding: 0 24px;
+    }
+
+    &-business {
+      padding: 0 24px;
+      margin-bottom: 10px;
+
+      &-success {
+        padding: 0;
+      }
+
+      &-title {
+        @include font-style (24px, 600, $dark-gray, $lineHeight: 24px, $spacing: 0.4px);
+        margin-bottom: 8px;
+      }
+
+      &-service {
+        @include display-flex;
+        @include font-style (12px, bold, $dark-gray, $lineHeight: 16px, $spacing: 0.4px);
+
+        ion-icon {
+          @include square (16px);
+          margin-right: 8px;
+        }
+
+        span {
+          @include font-style (12px, 400, $gray, $lineHeight:16px, $spacing: 0.4px);
+          display: inline-block;
+          margin-left: 6px;
+        }
+      }
+    }
+  }
+
+  &__footer {
+    @include display-flex (center, center, $direction: column);
+    @include position ($left: 0, $right: 0, $bottom: 0);
+    width: 100%;
+    background-color: $white;
+    margin-bottom: 34px;
+
+    ion-button {
+      width: fit-content;
+    }
+  }
+
+  &-success {
+    @include display-flex (flex-start, flex-start, $direction: column);
+    background-color: $green2;
+
+    .submit__content {
+      @include border-style ($radius: 8px);
+      background-color: $white;
+      width: calc(100% - 48px);
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+      margin: 0 24px;
+      padding-top: 24px;
+
+      &-business {
+        margin: 0 24px 10px;
+      }
+    }
+
+    &__block {
+      padding: 24px;
+
+      &-title {
+        @include font-style (36px, bold, $dark-blue2, $lineHeight: 44px, $spacing: 0);
+        margin-top: 12px;
+      }
+
+      &-sub-title {
+        @include font-style (16px, 400, $dark-gray, $lineHeight: 28px, $spacing: 0.4px);
+      }
+    }
+  }
+}
+
+info-hint {
+  margin: 24px;
+}
+
+ion-content {
+  min-height: 100vh;
+}

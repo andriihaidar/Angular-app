@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons / Ic_48_Pin - Handyman</title>
+    <defs>
+        <path d="M21,0 C32.5979797,0 42,9.40202025 42,21 C42,31.4920156 34.3056074,40.1869095 24.251739,41.7497647 L21,45 L17.7492633,41.7499205 C7.69490405,40.1874874 0,31.4923643 0,21 C0,9.40202025 9.40202025,0 21,0 Z" id="path-1"></path>
+        <filter x="-16.7%" y="-11.1%" width="133.3%" height="131.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#2EBCD7" offset="0%"></stop>
+            <stop stop-color="#2CB6D3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icons-/-Ic_48_Pin---Handyman" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="48" height="48"></rect>
+        <g id="Group" transform="translate(3.000000, 2.000000)">
+            <g id="Combined-Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <circle id="Oval" fill="url(#linearGradient-3)" fill-rule="nonzero" cx="21" cy="21" r="19"></circle>
+            <g transform="translate(9.000000, 9.000000)" id="Icons-/-Ic_24_Delivery---Glyph">
+                <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+                <g id="settings" fill="#FFFFFF">
+                    <path d="M17.25,13.125 L21.56775,17.81775 C22.1646049,18.4144246 22.4999296,19.2237972 22.4999296,20.06775 C22.4999296,20.9117028 22.1646049,21.7210754 21.56775,22.31775 C20.9710754,22.9146049 20.1617028,23.2499296 19.31775,23.2499296 C18.4737972,23.2499296 17.6644246,22.9146049 17.06775,22.31775 L17.06775,22.31775 L12.75,18 L17.25,13.125 Z M3.74512354,-3.61488617e-13 L7.49024707,3.78032133 L7.49024707,5.33277329 L10.125,7.875 L7.5,10.125 L5.28312094,7.56064265 L3.74512354,7.56064265 L0,3.78032133 L3.74512354,-3.61488617e-13 Z" id="Combined-Shape"></path>
+                    <path d="M22.9755,4.0245 L20.25,6.75 L17.25,3.75 L19.9755,1.0245 C18.251425,0.421027356 16.3346087,0.833622262 15.0115122,2.09299888 C13.6884157,3.35237551 13.1817895,5.24651097 13.6995,6.99825 L1.239,18.363 C0.62712501,18.9212117 0.583477652,19.8697023 1.1415,20.48175 C1.15725,20.499 1.173,20.5155 1.1895,20.532 L3.468,22.8105 C4.05374978,23.3960729 5.00325022,23.3960729 5.589,22.8105 C5.6055,22.794 5.62125,22.7775 5.637,22.76025 L17.00175,10.3005 C18.7538068,10.8206017 20.6495453,10.3147709 21.9096003,8.99096176 C23.1696552,7.66715265 23.5813766,5.74877448 22.9755,4.0245 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

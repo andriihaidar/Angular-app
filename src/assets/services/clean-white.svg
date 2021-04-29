@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>90824455-22C4-4294-8E70-EC196816EA7C</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#6BE89F" offset="0%"></stop>
+            <stop stop-color="#4CBD97" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="03---Consumer-Mode" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="08-02A_Consumer-Mode---Business-Directory---List-View" transform="translate(-199.000000, -344.000000)">
+            <g id="Services" transform="translate(24.000000, 292.000000)">
+                <g id="Icons-/-Thumbnail_48" transform="translate(175.000000, 52.000000)">
+                    <rect id="Container---Active" fill="url(#linearGradient-1)" fill-rule="nonzero" x="0" y="0" width="64" height="64" rx="12"></rect>
+                    <g id="Icons-/-Ic_32_Clean---Glyph" transform="translate(16.000000, 16.000000)">
+                        <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="32" height="32"></rect>
+                        <g id="broom" transform="translate(4.000000, 0.000000)" fill="#FFFFFF">
+                            <rect id="Rectangle" x="9" y="11" width="6" height="4"></rect>
+                            <path d="M15.202,17 L23.832,30.445 C24.036,30.752 24.056,31.147 23.882,31.472 C23.708,31.797 23.369,32 23,32 L23,32 L17,32 L17,29 C17,28.448 16.553,28 16,28 C15.447,28 15,28.448 15,29 L15,29 L15,32 L13,32 L13,29 C13,28.448 12.553,28 12,28 C11.447,28 11,28.448 11,29 L11,29 L11,32 L9,32 L9,29 C9,28.448 8.553,28 8,28 C7.447,28 7,28.448 7,29 L7,29 L7,32 L1,32 C0.631,32 0.292,31.796 0.118,31.471 C-0.056,31.146 -0.036,30.752 0.168,30.445 L0.168,30.445 L8.798,17 L15.202,17 Z M12,0 C13.6542,0 15,1.3458 15,3 L15,3 L15,9 L9,9 L9,3 C9,1.3458 10.3458,0 12,0 Z" id="Combined-Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

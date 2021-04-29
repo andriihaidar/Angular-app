@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons / Ic_48_FB - Circle</title>
+    <defs>
+        <circle id="path-1" cx="24" cy="24" r="22"></circle>
+        <filter x="-31.8%" y="-22.7%" width="163.6%" height="163.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Icons-/-Ic_48_FB---Circle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="48" height="48"></rect>
+        <g id="Oval">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+        <g id="Group" transform="translate(12.000000, 12.000000)">
+            <rect id="Bounding-Box" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+            <path d="M9.03153,23 L9,13 L5,13 L5,9 L9,9 L9,6.5 C9,2.7886 11.29832,1 14.60914,1 C16.19506,1 17.55807,1.11807 17.95529,1.17085 L17.95529,5.04948 L15.65906,5.05052 C13.85845,5.05052 13.50981,5.90614 13.50981,7.16171 L13.50981,9 L18.75,9 L16.75,13 L13.50981,13 L13.50981,23 L9.03153,23 Z" id="Path" fill="#323F4B"></path>
+        </g>
+    </g>
+</svg>

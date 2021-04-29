@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>7A7EE001-842F-4279-B5BD-049A4340C7E8</title>
+    <g id="04---Account" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="13-01A_Account---Detail---Premium-User" transform="translate(-24.000000, -462.000000)">
+            <g id="Group-2" transform="translate(24.000000, 318.000000)">
+                <g id="Text-Input-/-Default---Lead-Tail-Icon" transform="translate(0.000000, 128.000000)">
+                    <g id="Icons-/-Ic_24_Search" transform="translate(0.000000, 16.000000)">
+                        <rect id="Bounding-Box" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+                        <g id="Group-3" transform="translate(2.000000, 5.000000)">
+                            <rect id="Rectangle" stroke="#323F4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="20" height="14" rx="2"></rect>
+                            <circle id="Oval" fill="#2E9B74" fill-rule="nonzero" cx="5" cy="9" r="2"></circle>
+                            <circle id="Oval" fill="#2E9B74" fill-rule="nonzero" cx="8" cy="9" r="2"></circle>
+                        </g>
+                        <line x1="3" y1="9" x2="21" y2="9" id="Line" stroke="#323F4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

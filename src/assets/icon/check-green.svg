@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>81054E68-9973-4BDA-B90F-70151860C98D</title>
+    <g id="01---Create-Account" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="06-05_Account---Forgot-Password---Recovery-Link-Sent" transform="translate(-24.000000, -253.000000)">
+            <g id="Icon" transform="translate(24.000000, 253.000000)">
+                <circle id="Container" fill="#D2F8E2" cx="32" cy="32" r="32"></circle>
+                <g id="Icons-/-Ic_24_Check-Simple" transform="translate(16.000000, 16.000000)">
+                    <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="32" height="32"></rect>
+                    <g id="check-single" stroke-linecap="round" stroke-linejoin="round" transform="translate(4.000000, 5.333333)" stroke="#2E9B74" stroke-width="2">
+                        <polyline id="Path" points="0 13.3333333 8 21.3333333 24 0"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

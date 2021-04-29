@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>82EC819C-55A0-42E7-9DA7-9F15A9A9F0DA</title>
+    <g id="02---Business-Flow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="10-01B_Provider-Mode---Requests---List---Detail" transform="translate(-274.000000, -124.000000)" fill="#FFFFFF">
+            <g id="Group" transform="translate(0.000000, 96.000000)">
+                <g id="Labels-/-Time-Counter" transform="translate(270.000000, 24.000000)">
+                    <g id="Icons-/-Ic_16_Time---Glyph" transform="translate(4.000000, 4.000000)">
+                        <rect id="Bounding-Box" fill-opacity="0" fill-rule="nonzero" x="0" y="0" width="16" height="16"></rect>
+                        <g id="clock">
+                            <path d="M8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 Z M8,2.33333333 C7.44771525,2.33333333 7,2.78104858 7,3.33333333 L7,3.33333333 L7,8 L7.00735028,8.12126085 C7.05109726,8.48028788 7.28691678,8.79179967 7.62860932,8.92847669 L7.62860932,8.92847669 L10.9619427,10.26181 L11.0727213,10.2988755 C11.5559421,10.4299489 12.0713476,10.1808801 12.26181,9.70472401 L12.26181,9.70472401 L12.2988755,9.5939454 C12.4299489,9.1107246 12.1808801,8.59531909 11.704724,8.40485664 L11.704724,8.40485664 L9,7.323 L9,3.33333333 L8.99327227,3.21671221 C8.93550716,2.71937352 8.51283584,2.33333333 8,2.33333333 Z" id="Combined-Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

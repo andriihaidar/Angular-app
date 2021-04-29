@@ -1,0 +1,20 @@
+<div class="toggle-status">
+  <div class="toggle-status__title">{{ title | translate }}</div>
+  <div class="toggle-status__subtitle">{{ subTitle | translate }}</div>
+  <div class="toggle-status__footer">
+    <ion-button
+      fill="clear"
+      class="btn"
+      [ngClass]="{
+        'btn-green': this.isClosed,
+        'btn-red': !this.isClosed
+      }"
+      (click)="toggleBusinessStatus()"
+    >{{ acceptButtonText | translate }}</ion-button>
+    <ion-button
+      fill="clear"
+      class="btn btn-outline"
+      (click)="dismiss()"
+    >{{ 'business.cancel' | translate }}</ion-button>
+  </div>
+</div>

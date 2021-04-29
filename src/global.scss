@@ -1,0 +1,460 @@
+// http://ionicframework.com/docs/theming/
+// App Global Sass
+// ----------------------------------------------------------------------------
+// Put style rules here that you want to apply globally. These styles are for
+// the entire app and not just one component. Additionally, this file can be
+// also used as an entry point to import other Sass files to be included in the
+// output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's default Sass
+// variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule for the .md, .ios,
+// or .wp mode classes. The mode class is automatically applied to the <body>
+// element in the app.
+@import 'app';
+@import './theme/fonts.scss';
+@import '~quill/dist/quill.core.css';
+@import '~quill/dist/quill.bubble.css';
+@import '~quill/dist/quill.snow.css';
+
+p {
+  margin: 0;
+}
+
+input:focus,
+button:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.btn {
+  @include border-style ($radius: 25px);
+  @include font-style (16px, bold, $transform: uppercase);
+  height: 50px;
+  padding: 0 24px;
+  transition: .7s;
+
+  &-icon {
+    @include border-style (1px solid $light-gray, $radius: 24px);
+    padding: 7px 0;
+    margin-bottom: 20px;
+
+    .paragraph {
+      margin-left: 8px;
+    }
+  }
+
+  &-dark-gray {
+    @include font-style ($color: $white);
+    background-color: $dark-gray;
+  }
+
+  &-green {
+    @include font-style ($color: $dark-gray);
+    background-color: $green2;
+  }
+
+  &-outline {
+    @include font-style ($color: $light-gray3);
+    background-color: transparent;
+  }
+
+  &-small {
+    height: 32px;
+    padding: 0 16px;
+  }
+
+  &-red {
+    @include font-style ($color: $white);
+    background-color: $error;
+  }
+
+  &-red-reverse {
+    @include font-style(16px, 800, $error, center, 26px, $spacing: 1px);
+  }
+
+  &-gray-border {
+    @include border-style (1px solid $light-gray3, $radius: 25px);
+    @include font-style (12px, 800, $light-gray3, center, 16px, $spacing: 1px);
+    --padding-start: 0;
+    --padding-end: 0;
+  }
+
+  &-white {
+    @include font-style ($color: $light-gray3);
+    @include border-style (1px solid $light-gray3);
+    background-color: $white;
+  }
+
+  &-clear {
+    height: auto;
+    margin: 0;
+    --padding-start: 0;
+    --padding-end: 0;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --border-radius: 0;
+  }
+}
+
+.btn-green:disabled, .btn-red:disabled, ion-button[disabled] {
+  @include font-style ($color: $light-gray3);
+  pointer-events: none;
+  background-color: $light-gray;
+  opacity: 1;
+}
+
+.link {
+  @include font-style (12px, bold, $green3, $lineHeight: 16px, $spacing: 0.4px);
+  text-decoration: none;
+}
+
+ion-button {
+  text-transform: none;
+}
+
+.item-has-focus .label-floating.sc-ion-label-md-h {
+  color: $gray;
+}
+
+ion-button.link {
+  --padding-start: 2px;
+  --padding-end: 2px;
+  margin: 0;
+}
+
+.link-gray {
+  @include font-style (14px, $color: $light-gray3, $lineHeight: 20px);
+}
+
+.error-message {
+  @include font-style (12px, normal, $error, $lineHeight: 16px, $spacing: 0.4px);
+}
+
+.title {
+  @include font-style (36px, bold, $dark-green, $lineHeight: 46px);
+  @include only-width-320 {
+    @include font-style (20px,  $lineHeight: 30px);
+  }
+}
+
+.middle-title {
+  @include font-style (20px, 600, $dark-gray, $lineHeight: 28px, $spacing: 0.4px);
+}
+
+.small-title {
+  @include font-style (16px, bold, $dark-gray, $lineHeight: 24px, $spacing: 1px);
+}
+
+.paragraph {
+  @include font-style (16px, $color: $gray, $lineHeight: 28px);
+  @include only-width-320 {
+    @include font-style (14px,  $lineHeight: 22px);
+  }
+}
+
+.large-grey-paragraph {
+  @include font-style (16px, 800, $light-gray, center, $lineHeight: 26px, $spacing: 1px);
+}
+
+.large-green-paragraph {
+  @include font-style (16px, 600, $green3, $lineHeight: 24px, $spacing: 0.4);
+}
+
+.small-paragraph {
+  @include font-style (12px, $lineHeight: 16px, $spacing: 0.4px);
+}
+
+ion-modal {
+  .modal-wrapper {
+    &,
+    .ion-page,
+    .ion-page .content,
+    .ion-page .content .scroll-content {
+        contain: content;
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+  }
+}
+
+.popup {
+  background: rgba($blue1, 0.6);
+  overflow: unset;
+  .modal-wrapper {
+    background: $white;
+    border-radius: 16px;
+    max-width: calc(100% - 32px);
+    min-height: 200px;
+    height: auto;
+  }
+}
+
+.payment-popup {
+  background: rgba($blue1, 0.6);
+  .modal-wrapper {
+    @include display-flex (center);
+    width: calc(100% - 48px);
+    height: auto;
+    background-color: transparent;
+  }
+  .modal-shadow{
+      display: none;
+  }
+}
+
+.paragraph-two {
+  @include font-style (16px, $color: $dark-gray, $lineHeight: 28px, $spacing: 0.4);
+}
+
+.center {
+  @include display-flex ($align: center, $direction: column)
+}
+
+ion-item {
+  --padding-start: 0;
+  --highlight-color-focused: white;
+}
+
+.swiper-zoom-container {
+  display: block;
+}
+
+.small-modal .modal-wrapper {
+  @include position (absolute, 60%);
+  border-radius: 40px 40px 0 0;
+}
+
+.half-modal .modal-wrapper {
+  @include position (absolute, 50%);
+  border-radius: 40px 40px 0 0;
+}
+
+.modal-scrollable .modal-wrapper {
+  overflow: scroll;
+}
+
+.bottom-modal .modal-wrapper {
+  @include display-flex ($align: flex-end);
+  background: rgba(black, 0.2);
+}
+
+.fill-div {
+  height: 80px;
+  &__big {
+    height: 116px;
+  }
+}
+
+ion-modal {
+  &.bottom-black-tip {
+    --backdrop-opacity: 0!important;
+    .modal-wrapper {
+      width: calc(100% - 24px);
+      @include position (absolute, $bottom: 165px);
+      height: auto;
+      border-radius: 12px;
+      background-color: $dark-gray;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.04);
+      color: $white;
+    }
+  }
+}
+
+.info-count-text-infinit {
+  color: $gray;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  text-align: center;
+}
+
+.cover-img {
+  height: 100%;
+  object-fit: cover;
+}
+
+app-slots-modal {
+  width: 100%;
+}
+
+photo {
+  width: 100%;
+  background-color: $white;
+  border-radius: 40px 40px 0 0;
+}
+
+.loader {
+  @include display-flex (center, center);
+  @include square (100%);
+  padding: 20%;
+}
+
+ion-checkbox {
+  --border-radius: 4px;
+  --border-color: #CBD2D9;
+  --border-width: 2px;
+  --background-checked: #4CBD97;
+  --border-color-checked: #4CBD97;
+}
+
+.coming-soon-label {
+  @include font-style (12px, bold, $white, $lineHeight: 16px, $spacing: 0.4px);
+  @include border-style ($radius: 18px);
+  padding: 3px 8px;
+  display: inline-block;
+  margin-top: 5px;
+  background-color: $dark-yellow;
+}
+
+ion-refresher-content {
+  padding-top: 44px;
+}
+
+.top-margin {
+  margin-top: 44px;
+
+  @include only-width-374 {
+    margin-top: 15px;
+  }
+
+  // @include only-width-414 {
+  //   margin-top: 15px;
+  // }
+
+  // @include only-width-374 {
+  //   margin-top: 15px;
+  // }
+
+  // @include only-width-320 {
+  //   margin-top: 15px;
+  // }
+
+}
+
+@media not all and (min-height: 600px) and (min-width: 768px) {
+  ion-modal ion-backdrop {
+    visibility: visible;
+  }
+}
+
+.directory-map .gmnoprint {
+  margin-top: 44px !important;
+  @include only-width-374 {
+    margin-top: 15px !important;
+  }
+}
+
+body {
+	display: flex;
+	display: -webkit-flex;
+	width: 100vw;
+	height: 100vh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.apple-pay-button {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	-webkit-appearance: -apple-pay-button;
+	cursor: pointer;
+}
+
+.apple-pay-button-with-text>* {
+	display: none;
+}
+
+.apple-pay-button-black-with-text {
+	-apple-pay-button-style: black;
+}
+
+.apple-pay-button-white-with-text {
+	-apple-pay-button-style: white;
+}
+
+.apple-pay-button-white-with-line-with-text {
+	-apple-pay-button-style: white-outline;
+}
+
+.apple-pay-button-text-book {
+	-apple-pay-button-type: book;
+}
+
+.apple-pay-button-text-buy {
+	-apple-pay-button-type: buy;
+}
+
+.apple-pay-button-text-check-out {
+	-apple-pay-button-type: check-out;
+}
+
+.apple-pay-button-text-donate {
+	-apple-pay-button-type: donate;
+}
+
+/* For mobile devices */
+
+@media only screen and (max-width: 600px) {
+	.apple-pay-button {
+		width: 90%;
+		height: 90%;
+	}
+}
+
+.apple-pay-button-with-text {
+    display: inline-block;
+    -webkit-appearance: -apple-pay-button;
+    -apple-pay-button-type: subscribe;
+}
+.apple-pay-button-with-text > * {
+    display: none;
+}
+.apple-pay-button-black-with-text {
+    -apple-pay-button-style: black;
+}
+
+.apple-pay-button-with-text {
+    --apple-pay-scale: 1; /* (height / 32) */
+    display: inline-flex;
+    justify-content: center;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+    min-width: 200px;
+    min-height: 32px;
+    max-height: 64px;
+}
+.apple-pay-button-black-with-text {
+    background-color: black;
+    color: white;
+}
+.apple-pay-button-with-text.apple-pay-button-black-with-text > .logo {
+    background-image: -webkit-named-image(apple-pay-logo-white);
+    background-color: black;
+}
+.apple-pay-button-with-text > .text {
+    font-family: -apple-system;
+    font-size: calc(1em * var(--apple-pay-scale));
+    font-weight: 300;
+    align-self: center;
+    margin-right: calc(2px * var(--apple-pay-scale));
+}
+.apple-pay-button-with-text > .logo {
+    width: calc(35px * var(--scale));
+    height: 100%;
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    margin-left: calc(2px * var(--apple-pay-scale));
+    border: none;
+}
+
+.gm-svpc {
+  display: none;
+}

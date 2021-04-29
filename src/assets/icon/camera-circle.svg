@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>69F6380F-577A-41CA-B0DF-63D14F169401</title>
+    <defs>
+        <circle id="path-1" cx="24" cy="24" r="22"></circle>
+        <filter x="-31.8%" y="-22.7%" width="163.6%" height="163.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="02---Business-Flow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="07-03C_Provider-Mode---Inventory---Create---Business-Profile---Filled" transform="translate(-285.000000, -374.000000)">
+            <g id="Icons-/-Ic_48_Camera---Circle" transform="translate(291.000000, 376.000000)">
+                <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="48" height="48"></rect>
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Icons-/-Ic_24_Camera" transform="translate(12.000000, 12.000000)">
+                    <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+                    <path d="M3.35714286,22 L20.6428571,22 C21.9446712,22 23,20.966811 23,19.6923077 L23,8.15384615 C23,6.87934289 21.9446712,5.84615385 20.6428571,5.84615385 L17.5,5.84615385 L15.1428571,2 L8.85714286,2 L6.5,5.84615385 L3.35714286,5.84615385 C2.0553288,5.84615385 1,6.87934289 1,8.15384615 L1,19.6923077 C1,20.966811 2.0553288,22 3.35714286,22 Z" id="Path" stroke="#323F4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <circle id="Oval" stroke="#4CBD97" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" cx="12" cy="13" r="5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

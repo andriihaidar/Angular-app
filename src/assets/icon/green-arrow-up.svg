@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>DB6DB871-BB57-43EA-8C13-04E95A0C26EF</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="327" height="184" rx="8"></rect>
+        <filter x="-4.3%" y="-5.4%" width="108.6%" height="115.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="04---Account" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="13-03A_Account---Detail---Business-Report---Full" transform="translate(-147.000000, -2654.000000)">
+            <rect id="Background" fill="#FAFAFB" fill-rule="nonzero" x="0" y="0" width="375" height="4232"></rect>
+            <g id="Group-5" transform="translate(24.000000, 1134.000000)">
+                <g id="Group-2" transform="translate(0.000000, 1418.000000)">
+                    <g id="Mask">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Group-13" transform="translate(19.000000, 88.000000)" fill-rule="nonzero">
+                        <g id="Group-15" transform="translate(104.000000, 10.000000)">
+                            <g id="Icons-/-Ic_16_Arrow---Up---Glyph" transform="translate(0.000000, 4.000000)">
+                                <rect id="Bounding-Box" x="0" y="0" width="16" height="16"></rect>
+                                <path d="M4,8 L8,3 L12,8 L10,8 L10,13 L6,13 L6,8 L4,8 Z" id="Combined-Shape" fill="#2E9B74"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

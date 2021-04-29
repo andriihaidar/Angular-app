@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>6BDD244A-E32D-41A9-B27D-017D444DB6A4</title>
+    <g id="03---Consumer-Mode" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="11-03B_Consumer-Mode---Chat---Detail" transform="translate(-16.000000, -741.000000)">
+            <g id="Icons-/-Ic_24_Attachment" transform="translate(16.000000, 741.000000)">
+                <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+                <g id="attachment" transform="translate(5.000000, 0.000000)" fill="#CBD2D9">
+                    <path d="M7.5,24 C3.4,24 0,20.6 0,16.5 L0,5.5 C0,2.5 2.5,0 5.5,0 C8.5,0 11,2.5 11,5.5 L11,15.5 C11,17.4 9.4,19 7.5,19 C5.6,19 4,17.4 4,15.5 L4,7 C4,6.4 4.4,6 5,6 C5.6,6 6,6.4 6,7 L6,15.5 C6,16.3 6.7,17 7.5,17 C8.3,17 9,16.3 9,15.5 L9,5.5 C9,3.6 7.4,2 5.5,2 C3.6,2 2,3.6 2,5.5 L2,16.5 C2,19.5 4.5,22 7.5,22 C10.5,22 13,19.5 13,16.5 L13,4 C13,3.4 13.4,3 14,3 C14.6,3 15,3.4 15,4 L15,16.5 C15,20.6 11.6,24 7.5,24 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

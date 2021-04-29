@@ -1,0 +1,28 @@
+<div class="datepicker">
+  <ion-button fill="clear" (click)="dismiss()">
+    <img src="assets/icon/close.svg" class="datepicker-close">
+  </ion-button>
+  <div class="datepicker__content">
+    <p class="datepicker__content-title">{{ 'business.pick_date' | translate }}</p>
+    <div class="wrapper-datepicker ">
+      <ng-datepicker
+        [options]="datepickerOptions"
+        [isOpened]="true"
+        [rangeDate]="true"
+        (changeStartDate)="setStartDate($event)"
+        (changeEndDate)="setEndDate($event)"
+        (ngModelChange)="onDateChange()"
+      ></ng-datepicker>
+    </div>
+  </div>
+  <ion-footer-bar class="hide-on-keyboard-open buttons">
+    <p>{{ startDate | date: 'd MMM' }} - {{ endDate | date: "d MMM yyyy" }}</p>
+    <ion-button
+      fill="clear"
+      class="btn btn-green"
+      (click)="closeModal()"
+    >
+      {{ 'use selected dates' | uppercase }}
+    </ion-button>
+  </ion-footer-bar>
+</div>

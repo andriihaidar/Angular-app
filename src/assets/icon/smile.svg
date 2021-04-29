@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>C35D23E5-7B99-473C-A2A3-3FBFD4B0847D</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="03-09_Account---Profile-Photo" transform="translate(-44.000000, -116.000000)">
+            <g id="Icon" transform="translate(24.000000, 96.000000)">
+                <g id="Icons-/-Ic_24_Smile---Glyph" transform="translate(20.000000, 20.000000)">
+                    <rect id="Bounding-Box" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+                    <g id="malicious">
+                        <circle id="Oval" fill="#48CF97" fill-rule="nonzero" cx="12" cy="12" r="12"></circle>
+                        <path d="M18,10 C18,8.8954305 17.1045695,8 16,8 C14.8954305,8 14,8.8954305 14,10" id="Path" stroke="#2E9B74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M10,10 C10,8.8954305 9.1045695,8 8,8 C6.8954305,8 6,8.8954305 6,10" id="Path" stroke="#2E9B74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M10,17 L12.605,17 C14.1379356,16.9999591 15.6080713,16.3909697 16.692,15.307 L17,15" id="Path" stroke="#2E9B74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons / Ic_24_Time - Glyph</title>
+    <g id="Icons-/-Ic_24_Time---Glyph" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Bounding-Box" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+        <g id="clock" transform="translate(1.000000, 1.000000)">
+            <circle id="Oval" fill="#2E9B74" fill-rule="nonzero" cx="11" cy="11" r="11"></circle>
+            <path d="M11,3 C11.5128358,3 11.9355072,3.38604019 11.9932723,3.88337887 L12,4 L12,10.323 L16.3713907,12.0715233 C16.8475468,12.2619858 17.0966155,12.7773913 16.9655421,13.2606121 L16.9284767,13.3713907 C16.7380142,13.8475468 16.2226087,14.0966155 15.7393879,13.9655421 L15.6286093,13.9284767 L10.6286093,11.9284767 C10.2869168,11.7917997 10.0510973,11.4802879 10.0073503,11.1212609 L10,11 L10,4 C10,3.44771525 10.4477153,3 11,3 Z" id="Path" fill="#6BE89F"></path>
+        </g>
+    </g>
+</svg>

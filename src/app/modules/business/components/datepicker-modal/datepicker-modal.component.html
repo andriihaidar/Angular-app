@@ -1,0 +1,26 @@
+<div class="datepicker">
+  <div class="loader" *ngIf="disabledDaysLoading$ | async">
+
+    <ion-progress-bar
+      type="indeterminate"
+      color="success"
+    ></ion-progress-bar>
+  </div>
+  <ion-button fill="clear" (click)="dismiss()">
+    <img src="assets/icon/close.svg" class="datepicker-close">
+  </ion-button>
+  <div class="datepicker__content">
+    <p class="datepicker__content-title">{{ 'business.pick_date' | translate }}</p>
+    <div class="wrapper-datepicker ">
+      <ng-datepicker
+        [options]="datepickerOptions"
+        [disabledDays]="disabledDays"
+        [filledDays]="filledDays"
+        [isOpened]="true"
+        [(ngModel)]="date"
+        (ngModelChange)="onDateChange()"
+        (changeMonth)="changeMonth($event)"
+      ></ng-datepicker>
+    </div>
+  </div>
+</div>
